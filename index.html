@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="/">
+    <title>J</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/app/content/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/app/content/css/datepicker3.css" rel="stylesheet">
+    <link href="/app/content/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/app/content/css/styles.css" rel="stylesheet">
+    
+<!--<link href="/app/content/css/styles.css" rel="stylesheet"> -->
+<!--Icons-->
+
+    <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <script src="systemjs.config.js"></script>
+
+    <script src="/app/content/js/jquery-1.11.1.min.js"></script>
+    <script src="/app/content/js/bootstrap.min.js"></script>
+    <!--<script src="/app/content/js/bootstrap-table.js"></script>-->
+
+
+
+
+
+
+    
+    <script>
+      System.import('app').catch(function(err){ console.error(err); });
+    </script>
+  </head>
+
+  <body>
+    <my-app>Loading AppComponent content here ...</my-app>
+    <!--<script src="https://cdn.socket.io/socket.io-1.4.4.js"></script>-->
+    <!--<script src="/node_modules/socket.io-client/dist/socket.io.js"></script>-->
+  </body>
+</html>

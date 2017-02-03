@@ -1,0 +1,21 @@
+ <image-upload
+        name="file"
+        [max]="100"
+        [url]= "authService.baseUrl+'/api/upload'"
+         [headers]="[
+                        {header: 'x-access-token', value: authService.token},
+                        {header: 'x-key', value: authService.userName}
+                    ]"
+        [buttonCaption]="'Select Images!'"
+        [dropBoxMessage]="'Drop your images here!'"
+       
+      ></image-upload> 
+
+      
+</div>
+    <webcam channel="channel" ></webcam>
+
+
+
+
+      
